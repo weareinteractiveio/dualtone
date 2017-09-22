@@ -1,0 +1,22 @@
+form {
+	.form-group {
+		input, textarea {
+			border-radius: 4px;
+			box-shadow: none;
+			border: 1px solid lighten($black, 90%);
+			padding: 15px 20px;
+		}
+		input.full {
+			width: 100%;
+		}
+		textarea {
+			width: 100%;
+		}
+		&.ext-space {
+			margin-bottom: 45px;
+		}
+	}
+	textarea {
+		border: 1px solid lighten($black, 90%);
+	}
+}
